@@ -17,8 +17,8 @@ const NavBar = () => {
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-[rgba(16,16,24,0.9)] shadow-lg h-[70px]"
-          : "bg-transparent h-[90px]"
+          ? "bg-[#101018] h-[70px]"
+          : "bg-transparent h-[70px]"
       }`}
     >
       <div className="mx-auto xl:mx-10 flex items-center justify-between p-4 text-white">
