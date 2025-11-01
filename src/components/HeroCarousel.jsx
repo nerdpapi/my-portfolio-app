@@ -28,7 +28,7 @@ export default function HeroCarousel() {
 
   return (
     <>
-      <section className="relative min-h-screen flex flex-col justify-center">
+      <section className="overflow-hidden">
         <Carousel
           autoPlay
           infiniteLoop

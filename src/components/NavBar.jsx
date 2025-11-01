@@ -22,7 +22,7 @@ const NavBar = () => {
       }`}
     >
       <div className="mx-auto xl:mx-10 flex items-center justify-between p-4 text-white">
-        <a href="#home">
+        <a href="/">
           <img src={Logo} alt="Logo" className="h-[40px] md:h-[50px]" />
         </a>
         <button
