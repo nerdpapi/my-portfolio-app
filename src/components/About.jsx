@@ -3,15 +3,15 @@ function About() {
     return (
       <section
         id="about"
-        className="bg-[#f2f2f2] relative min-h-screen py-10 md:py-16 xl:py-20 px-5 md:px-10 xl:px-20 flex flex-col justify-center"
+        className="bg-[#f2f2f2] relative min-h-screen px-5 md:px-10 xl:px-20 flex flex-col justify-center"
       >
-        <div className="text-center xl:text-left mb-10">
+        <div className="text-center xl:text-left mt-15 mb-10">
           <h1 className="text-6xl xl:text-[80px] font-semibold bg-gradient-to-t from-[#9932cc] to-[#0000EE] bg-clip-text text-transparent">
             About Me
           </h1>
         </div>
         <div className="mx-auto xl:mx-0">
-          <div className="hidden md:block space-y-6 xl:space-y-8">
+          <div className="hidden md:block space-y-8">
           <p className="text-xl neue-machina">
             I’m <span className="font-semibold">Kunal</span>, a passionate and{" "}
             <span className="font-semibold">
@@ -82,7 +82,7 @@ function About() {
         </div>
   
           {/* Mobile Content */}
-          <div className="block md:hidden space-y-10 p-1">
+          <div className="block md:hidden space-y-6">
             <p className="text-lg neue-machina">
               //. I’m <span className="font-semibold">Kunal</span>, a{" "}
               <span className="font-semibold">

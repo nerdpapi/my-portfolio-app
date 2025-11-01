@@ -31,9 +31,9 @@ function WhatIDo() {
     return (
       <section
         id="skills"
-        className="bg-[#f2f2f2] relative min-h-screen py-10 md:py-16 xl:py-20 px-5 md:px-10 xl:px-20 flex flex-col justify-center"
+        className="bg-[#f2f2f2] relative min-h-screen px-5 md:px-10 xl:px-20 flex flex-col justify-center"
       >
-        <div className="text-center xl:text-left mb-16 md:mb-20 xl:mb-50">
+        <div className="text-center xl:text-left mb-10 xl:mb-55">
           <h1 className="text-6xl xl:text-[80px] font-semibold">
             <span className="italic gilroy">WHAT</span>{" "}
             <span className="bg-gradient-to-r from-[#9932cc] to-[#0000EE] bg-clip-text text-transparent gilroy">
@@ -93,7 +93,7 @@ function WhatIDo() {
         </div>
   
         {/* Large screen layout */}
-        <div className="hidden md:flex flex-col xl:flex-row gap-30 xl:gap-50 mt-15">
+        <div className="hidden md:flex flex-col xl:flex-row gap-30 xl:gap-50">
           {/* Develop Section */}
           <div className="flex flex-col flex-1">
             <h3 className="text-5xl xl:text-6xl text-[#ff0000] mb-4 neue-machina">

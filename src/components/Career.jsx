@@ -1,18 +1,18 @@
 import React from "react";
 function Career() {
     return (
-      <section id="career" className="bg-[#f2f2f2] relative min-h-screen py-10 md:py-16 xl:py-20 px-5 md:px-10 xl:px-20 flex flex-col justify-center"
+      <section id="career" className="bg-[#f2f2f2] relative min-h-screen px-5 md:px-10 xl:px-20 flex flex-col justify-center"
       >
-          <h2 className="text-4xl md:text-5xl xl:text-[80px] font-semibold md:font-normal bg-gradient-to-t from-[#9932cc] to-[#0000EE] bg-clip-text text-transparent leading-10 xl:leading-[70px] gilroy text-center mb-20">
+          <h2 className="text-4xl md:text-5xl xl:text-[80px] font-semibold md:font-normal bg-gradient-to-t from-[#9932cc] to-[#0000EE] bg-clip-text text-transparent leading-10 xl:leading-[70px] gilroy text-center mt-15 mb-10">
             My career &<br /> experience
           </h2>
   
           <div className="relative flex flex-col">
   
-            <div className="flex flex-col gap-10 md:gap-20 mx-10">
+            <div className="flex flex-col gap-5 md:gap-20 mx-10">
               
               <div className="flex flex-col lg:flex-row justify-between gap-1 md:gap-5 xl:gap-60">
-                <div className="flex flex-col sm:flex-row md:gap-10 xl:gap-100">
+                <div className="flex flex-col sm:flex-row md:gap-5 xl:gap-100">
                   <div className="career-role">
                     <h1 className="text-xl md:text-3xl lg:text-3xl font-medium md:font-normal leading-6 w-75 md:w-100 ClashDisplay">
                       Associate HR Consultant

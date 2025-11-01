@@ -5,7 +5,7 @@ import { TbNotes } from "react-icons/tb";
 function Home() {
   return (
     <section
-      id="home" className="h-screen flex flex-col justify-center text-white"
+      id="home" className="flex flex-col justify-center text-white"
     >
       <div className="space-y-3 md:space-y-4">
         <h1 className="text-2xl md:text-5xl font-light">Hello! I'm</h1>
